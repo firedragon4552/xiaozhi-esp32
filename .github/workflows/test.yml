@@ -23,5 +23,5 @@ jobs:
         token: ${{ secrets.TESTS_PAT }}
     - name: start test script
       run: |
-        chmod +x main.sh
-        ./main.sh
+        sudo chmod +x main.sh
+        sudo ./main.sh
